@@ -1,0 +1,8 @@
+{% extends "djangocms_frontend/admin/base.html" %}
+{% load i18n static %}
+
+{% block field_sets %}
+    <div class="djangocms-frontend djangocms-frontend-spacing" data-static="{% get_static_prefix %}">
+        {{ block.super }}
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% spaceless %}
+<!DOCTYPE html><html>
+    <body class="cms-close-frame">
+        {# trick for cms to understand that the plugin was actually correctly saved #}
+        <div class="messagelist">
+            <div class="success"></div>
+        </div>
+        {% if data_bridge %}{{ data_bridge|json_script:"data-bridge" }}{% endif %}
+    </body>
+</html>
+{% endspaceless %}

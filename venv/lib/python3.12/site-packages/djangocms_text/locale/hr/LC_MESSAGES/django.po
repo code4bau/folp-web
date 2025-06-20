@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Angelo Dini <angelo.dini@divio.ch>, 2019
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-22 23:13+0100\n"
+"PO-Revision-Date: 2019-01-23 16:28+0000\n"
+"Last-Translator: Angelo Dini <angelo.dini@divio.ch>, 2019\n"
+"Language-Team: Croatian (https://www.transifex.com/divio/teams/58664/hr/)\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: cms_plugins.py:370
+msgid "You do not have permission to add a plugin."
+msgstr ""
+
+#: cms_plugins.py:434
+msgid "Unable to process your request. Invalid token."
+msgstr ""
+
+#: cms_toolbars.py:60
+msgid "Toggle inline editing mode for text plugins"
+msgstr ""
+
+#: editors.py:32
+msgid "Undo"
+msgstr ""
+
+#: editors.py:36
+msgid "Redo"
+msgstr ""
+
+#: editors.py:40
+msgid "Bold"
+msgstr ""
+
+#: editors.py:46
+msgid "Italic"
+msgstr ""
+
+#: editors.py:52
+msgid "Underline"
+msgstr ""
+
+#: editors.py:58
+msgid "Strike"
+msgstr ""
+
+#: editors.py:62
+msgid "Subscript"
+msgstr ""
+
+#: editors.py:68
+msgid "Superscript"
+msgstr ""
+
+#: editors.py:74
+msgid "Remove formatting"
+msgstr ""
+
+#: editors.py:87
+msgid "Align left"
+msgstr ""
+
+#: editors.py:93
+msgid "Align center"
+msgstr ""
+
+#: editors.py:99
+msgid "Align right"
+msgstr ""
+
+#: editors.py:105
+msgid "Justify"
+msgstr ""
+
+#: editors.py:111
+msgid "Horizontal rule"
+msgstr ""
+
+#: editors.py:117
+msgid "Numbered list"
+msgstr ""
+
+#: editors.py:124
+msgid "Bullet list"
+msgstr ""
+
+#: editors.py:130
+msgid "Outdent"
+msgstr ""
+
+#: editors.py:137
+msgid "Indent"
+msgstr ""
+
+#: editors.py:144
+msgid "Blockquote"
+msgstr ""
+
+#: editors.py:150
+msgid "Link"
+msgstr ""
+
+#: editors.py:170
+msgid "Type URL or search for a destination"
+msgstr ""
+
+#: editors.py:171
+msgid "URL or search"
+msgstr ""
+
+#: editors.py:178
+msgid "Link options"
+msgstr ""
+
+#: editors.py:182
+msgid "Target"
+msgstr ""
+
+#: editors.py:186
+msgid "New window"
+msgstr ""
+
+#: editors.py:187
+msgid "Same window"
+msgstr ""
+
+#: editors.py:188
+msgid "Parent window"
+msgstr ""
+
+#: editors.py:201
+msgid "Unlink"
+msgstr ""
+
+#: editors.py:209
+msgid "Table"
+msgstr ""
+
+#: editors.py:213
+msgid "Add row before"
+msgstr ""
+
+#: editors.py:216
+msgid "Add row after"
+msgstr ""
+
+#: editors.py:219
+msgid "Add column before"
+msgstr ""
+
+#: editors.py:222
+msgid "Add column after"
+msgstr ""
+
+#: editors.py:225
+msgid "Delete row"
+msgstr ""
+
+#: editors.py:228
+msgid "Delete column"
+msgstr ""
+
+#: editors.py:231
+msgid "Delete table"
+msgstr ""
+
+#: editors.py:234
+msgid "Merge or split cells"
+msgstr ""
+
+#: editors.py:237
+msgid "Code"
+msgstr ""
+
+#: editors.py:243
+msgid "Small"
+msgstr ""
+
+#: editors.py:246
+msgid "Keyboard input"
+msgstr ""
+
+#: editors.py:252
+msgid "Code block"
+msgstr ""
+
+#: editors.py:259
+msgid "Heading 1"
+msgstr ""
+
+#: editors.py:265
+msgid "Heading 2"
+msgstr ""
+
+#: editors.py:271
+msgid "Heading 3"
+msgstr ""
+
+#: editors.py:277
+msgid "Heading 4"
+msgstr ""
+
+#: editors.py:283
+msgid "Heading 5"
+msgstr ""
+
+#: editors.py:289
+msgid "Heading 6"
+msgstr ""
+
+#: editors.py:295
+msgid "Paragraph"
+msgstr ""
+
+#: editors.py:301
+msgid "Anchor"
+msgstr ""
+
+#: editors.py:304
+msgid "Block format"
+msgstr ""
+
+#: editors.py:308
+msgid "Styles"
+msgstr ""
+
+#: editors.py:312
+msgid "Font"
+msgstr ""
+
+#: editors.py:315
+msgid "Font size"
+msgstr ""
+
+#: editors.py:318 editors.py:319 widgets.py:240 widgets.py:243
+msgid "CMS Plugins"
+msgstr ""
+
+#: editors.py:320 widgets.py:242
+msgid "Edit CMS Plugin"
+msgstr ""
+
+#: editors.py:321 widgets.py:241
+msgid "Add CMS Plugin"
+msgstr ""
+
+#: models.py:50
+msgid "body"
+msgstr "tijelo"
+
+#: models.py:51
+msgid "json"
+msgstr ""
+
+#: settings.py:39
+msgid "Text"
+msgstr "Tekst"
+
+#: settings.py:40
+msgid "Generic"
+msgstr ""

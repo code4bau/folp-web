@@ -1,0 +1,11 @@
+{% load frontend %}{% spaceless %}
+    <ul {% get_attributes instance.list_attributes %}>
+        {% for id, heading in toc %}
+            {% if id is None %}
+                {% include template with toc=heading %}
+            {% else %}
+                <li {% get_attributes instance.attributes %}><a href="#{{ id }}" {% get_attributes instance.link_attributes %}>{{ heading }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endspaceless %}

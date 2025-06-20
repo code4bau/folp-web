@@ -1,0 +1,27 @@
+{% extends "djangocms_frontend/admin/base.html" %}
+{% load i18n static frontend %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <script src="{% static 'djangocms_frontend/js/bundle.grid.js' %}"></script>
+{% endblock %}
+
+{% block field_sets %}
+    <div class="djangocms-frontend djangocms-frontend-column"
+        data-static="{% get_static_prefix %}"
+        data-sizes='{% framework_info "grid_sizes" %}'
+        data-icons='{% framework_info "grid_icons" %}'
+        data-rows='[
+        "{% trans "Column size" %}",
+        "{% trans "Order" %}",
+        "{% trans "Offset" %}",
+        "{% trans "Margin left" %}",
+        "{% trans "Margin right" %}"
+        ]'
+        data-reset='{% trans "Reset" %}'
+        data-links='{% framework_info "row_links" %}'
+    >
+        {{ block.super }}
+    </div>
+{% endblock %}
+{% block custom_class %}frontend-grid-icons {{ block.super }}{% endblock %}
