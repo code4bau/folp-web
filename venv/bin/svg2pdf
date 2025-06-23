@@ -1,4 +1,4 @@
-#!/home/bautista/Documentos/folp-web/venv/bin/python3
+#!/home/bautista/ProyectosFolp/folp-web/venv/bin/python3
 """A simple converter from SVG to PDF.
 
 For further information please check the file README.txt!
