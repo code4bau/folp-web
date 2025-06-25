@@ -1,23 +1,17 @@
+## Ejecución en 3 pasos: 
 
-1. Create virtual environment and activate it
+1. Crear un entorno virtual
    ```
    python3 -m venv .venv
    source .venv/bin/activate
    ```
-2. Install Django, django CMS and other required packages
+2. Instalar las dependencias
    ```
-   pip install django-cms
+   pip install -r requirements.txt
    ```
-3. Create project `<<project_name>>` using this template
-   ```
-   djangocms <<project_name>>
-   cd <<project_name>>
-   ```
-4. Run testserver
+3. Correr el servidor de desarrollo
    ```
    ./manage.py runserver
    ```
 
-Note: If you run into a problem of missing dependencies, please
-update `pip` using `pip install -U pip` before running the 
-`djangocms` command.
+Nota: Si tiene problemas con las dependencias, actualice `pip` usando `pip install -U pip`.
