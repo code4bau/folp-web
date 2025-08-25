@@ -1,1 +1,6 @@
 {% extends "bootstrap5/base.html" %}
+{% load static %}
+
+{% block bootstrap5_extra_head %}
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+{% endblock %}
