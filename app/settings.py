@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-f(!l!r57&-q876sa2aqq67lw=a61(t89=tb92no587h-%oi!b#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["163.10.29.39"]
+ALLOWED_HOSTS = ['163.10.29.39']
 
 
 # Application definition
@@ -101,7 +101,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, "app", "templates"),
+            os.path.join(BASE_DIR, 'app', 'templates'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -168,7 +168,7 @@ LANGUAGES = [
     # Add additional languages here
 ]
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Argentina/Buenos_Aires'
 
 USE_I18N = True
 USE_L10N = True
@@ -181,7 +181,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
@@ -228,15 +227,15 @@ DJANGOCMS_VERSIONING_ALLOW_DELETING_VERSIONS = True
 # https://docs.djangoproject.com/en/5.2/ref/settings/#staticfiles-dirs
 
 STATICFILES_DIRS = [
-    BASE_DIR / "app" / "static",
+    BASE_DIR / 'app' / 'static',
 ]
 
 INTERNAL_IPS = [
-    "127.0.0.1",
+    '127.0.0.1',
 ]
 
 # Add project-wide static files directory
 # https://docs.djangoproject.com/en/5.2/ref/settings/#media-root
 
-MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
