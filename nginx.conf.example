@@ -1,0 +1,21 @@
+server {
+    listen 80;
+    server_name 163.10.29.39;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/ctrbts/dev/github.com/code4bau/folp-web;
+    }
+
+    location /media/ {
+        root /home/ctrbts/dev/github.com/code4bau/folp-web;
+    }
+
+    location / {
+        proxy_pass http://unix:/run/gunicorn.sock;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
